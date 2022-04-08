@@ -40,6 +40,16 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>406D386B-469D-4B02-9757-DB462E8FDAB2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
 	</dict>
 	<key>createdby</key>
@@ -96,7 +106,7 @@
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>bs</string>
+				<string>books</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
@@ -130,6 +140,25 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://readmoo.com/search/keyword?q={query}&amp;kw={query}&amp;page=1&amp;st=true</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>406D386B-469D-4B02-9757-DB462E8FDAB2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>Keywords are one of Alfred's most commonly used and most useful ways of launching actions. Set a keyword and connect it to the action(s) you want to perform.
@@ -140,21 +169,28 @@ Type your keyword into Alfred, followed by your input text if needed, and you'll
 		<key>14EA484D-011D-47FC-89EA-B8A33E4DD3D6</key>
 		<dict>
 			<key>xpos</key>
-			<integer>165</integer>
+			<integer>160</integer>
 			<key>ypos</key>
-			<integer>250</integer>
+			<integer>285</integer>
+		</dict>
+		<key>406D386B-469D-4B02-9757-DB462E8FDAB2</key>
+		<dict>
+			<key>xpos</key>
+			<integer>415</integer>
+			<key>ypos</key>
+			<integer>475</integer>
 		</dict>
 		<key>84DCBB06-01EF-4646-BC54-5105C071069D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>415</integer>
+			<integer>410</integer>
 			<key>ypos</key>
-			<integer>250</integer>
+			<integer>235</integer>
 		</dict>
 		<key>E4CF7B7A-0959-4BD3-A8CC-238FF85914B9</key>
 		<dict>
 			<key>xpos</key>
-			<integer>415</integer>
+			<integer>410</integer>
 			<key>ypos</key>
 			<integer>115</integer>
 		</dict>
@@ -163,7 +199,7 @@ Type your keyword into Alfred, followed by your input text if needed, and you'll
 			<key>xpos</key>
 			<integer>415</integer>
 			<key>ypos</key>
-			<integer>390</integer>
+			<integer>355</integer>
 		</dict>
 	</dict>
 	<key>variablesdontexport</key>
